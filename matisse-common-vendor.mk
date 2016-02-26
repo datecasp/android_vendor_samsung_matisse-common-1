@@ -16,6 +16,7 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    com.qualcomm.location \
     TimeService
 
 $(call inherit-product, vendor/samsung/matisse-common/matisse-common-vendor-blobs.mk)
