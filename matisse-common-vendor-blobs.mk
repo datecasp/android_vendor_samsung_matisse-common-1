@@ -254,3 +254,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so
+
+# exFAT
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
+    $(LOCAL_PATH)/proprietary/lib/libexfat_utils.so:system/lib/libexfat_utils.so
