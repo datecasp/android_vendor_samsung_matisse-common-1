@@ -235,23 +235,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
     $(LOCAL_PATH)/proprietary/lib/libexfat_utils.so:system/lib/libexfat_utils.so
-    
-# Graphics Testing Stock Adreno Libs
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/egl/eglsubAndroid.so:system/adreno/vendor/lib/egl/eglsubAndroid.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/egl/libEGL_adreno.so:system/adreno/vendor/lib/egl/libEGL_adreno.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/egl/libGLESv1_CM_adreno.so:system/adreno/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/egl/libGLESv2_adreno.so:system/adreno/vendor/lib/egl/libGLESv2_adreno.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/egl/libq3dtools_adreno.so:system/adreno/vendor/lib/egl/libq3dtools_adreno.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/libadreno_utils.so:system/adreno/vendor/lib/libadreno_utils.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/libC2D2.so:system/adreno/vendor/lib/libC2D2.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/libc2d30-a3xx.so:system/adreno/vendor/lib/libc2d30-a3xx.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/libCB.so:system/adreno/vendor/lib/libCB.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/libgsl.so:system/adreno/vendor/lib/libgsl.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/libllvm-qcom.so:system/adreno/vendor/lib/libllvm-qcom.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/libOpenCL.so:system/adreno/vendor/lib/libOpenCL.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/libRSDriver_adreno.so:system/adreno/vendor/lib/libRSDriver_adreno.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/librs_adreno.so:system/adreno/vendor/lib/librs_adreno.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/librs_adreno_sha1.so:system/adreno/vendor/lib/librs_adreno_sha1.so \
-    $(LOCAL_PATH)/proprietary/adreno/vendor/lib/libsc-a3xx.so:system/adreno/vendor/lib/libsc-a3xx.so
+
     
